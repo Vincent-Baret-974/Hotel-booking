@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:hotel_booking/pages/HomePage.dart';
 
-const dGreen = Color(0xFF54D3C2);
-
 void main() {
   runApp(const MyApp());
 }
