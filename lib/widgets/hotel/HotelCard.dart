@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 const dGreen = Color(0xFF54D3C2);
 
@@ -54,6 +55,115 @@ class HotelCard extends StatelessWidget {
 
                       },
                     ),
+                )
+              ],
+            ),
+          ),
+          Container(
+            padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                    hotelData['title'],
+                    style: GoogleFonts.nunito(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w800
+                    )
+                ),
+                Text(
+                    '\$${hotelData['price']}',
+                    style: GoogleFonts.nunito(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w800
+                    ),
+                )
+              ],
+            ),
+          ),
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Row(
+                  children: [
+                    Text(
+                        hotelData['place'],
+                        style: GoogleFonts.nunito(
+                          fontSize: 14,
+                          color: Colors.grey.shade500,
+                          fontWeight: FontWeight.w400
+                        ),
+                    ),
+                    const SizedBox(width: 5),
+                    const Icon(
+                        Icons.place,
+                        color: dGreen,
+                        size: 14
+                    ),
+                    Text(
+                        '${hotelData['distance']} km to city',
+                        style: GoogleFonts.nunito(
+                            fontSize: 14,
+                            color: Colors.grey.shade500,
+                            fontWeight: FontWeight.w400
+                        )
+                    ),
+                  ],
+                ),
+                Text(
+                    '/per night',
+                    style: GoogleFonts.nunito(
+                      fontSize: 14,
+                      color: Colors.grey.shade800,
+                      fontWeight: FontWeight.w400
+                    ),
+                )
+              ],
+            ),
+          ),
+          Container(
+            padding: const EdgeInsets.fromLTRB(10, 3, 10, 0),
+            child: Row(
+              children: [
+                const Row(
+                  children: [
+                    Icon(
+                      Icons.star_rate,
+                      color: dGreen,
+                      size: 14
+                    ),
+                    Icon(
+                        Icons.star_rate,
+                        color: dGreen,
+                        size: 14
+                    ),
+                    Icon(
+                        Icons.star_rate,
+                        color: dGreen,
+                        size: 14
+                    ),
+                    Icon(
+                        Icons.star_rate,
+                        color: dGreen,
+                        size: 14
+                    ),
+                    Icon(
+                        Icons.star_border,
+                        color: dGreen,
+                        size: 14
+                    )
+                  ],
+                ),
+                const SizedBox(width: 8),
+                Text(
+                    '${hotelData['review']} reviews',
+                    style: GoogleFonts.nunito(
+                        fontSize: 14,
+                        color: Colors.grey.shade500,
+                        fontWeight: FontWeight.w400
+                    )
                 )
               ],
             ),
