@@ -1,16 +1,7 @@
-# hotel_booking
+# Hotel Reservation App - Flutter Project
 
-A new Flutter project.
+This Flutter project is an implementation of a hotel reservation website's wireframe design. Focused solely on replicating the visual structure without incorporating any backend logic, this application serves as a polished showcase of Flutter's capability to faithfully bring static designs to life. Explore the source code to gain insights into the precise UI implementation, providing a solid foundation for future functional enhancements.
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="355" alt="Capture d’écran 2023-12-31 à 19 32 02" src="https://github.com/Vincent-Baret-974/Hotel-booking/assets/133604447/163fc83d-3ab2-478a-b8c9-c5ffe71d1764">
