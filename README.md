@@ -1,6 +1,6 @@
 # Hotel Reservation App - Flutter Project
 
-This Flutter project is an implementation of a hotel reservation website's wireframe design. Focused solely on replicating the visual structure without incorporating any backend logic, this application serves as a polished showcase of Flutter's capability to faithfully bring static designs to life. Explore the source code to gain insights into the precise UI implementation, providing a solid foundation for future functional enhancements.
+This Flutter project is an implementation of a hotel reservation website's wireframe design. Focused solely on replicating the visual structure without incorporating any backend logic, this application serves as a polished showcase of Flutter's capability to faithfully bring static designs to life. Explore the source code to gain insights into the precise UI implementation, providing a solid foundation for future functional enhancements. 
 
 ## Screenshot
 
